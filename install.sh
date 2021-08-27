@@ -34,4 +34,9 @@ sudo git clone https://git.airsmed.io/swiftmr/internals/ghostunnel.git
 # poxy installer
 sudo git clone https://git.airsmed.io/swiftmr/internals/proxy-install.git
 
+cd proxy-install
+git switch devlop # develop으로 branch설정
+./build
+./out/proxt-installer
+./out/proxy-installer #proxy installer 실행
 
